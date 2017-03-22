@@ -696,27 +696,24 @@ body p{
 				float: left;width:800px;height:60px;
 			}
 			.header_nav li{
-				margin-top: 20px;
 				display: inline-block;
 				width: 100px;
-				height: 30px;
+				height: 54px;
 				text-align: center;
 			}
 			
 			.header_nav li a{
 				font-size: 14px;
 				color:#f2f2f2;
+				display: block;
+				margin: auto;
+				line-height: 54px;
 			}
-			.line{
-				margin:8px auto; 
-				width: 0px;
-				height: 5px;
-				background: #f2f2f2;
-				transition: width 0.5s;
-				-webkit-transition:width 0.5s; 
+			.header_nav li:hover{
+				background: #f4f4f4;
 			}
-			.header_nav li:hover .line{
-				width:100px;
+			.header_nav li:hover a{
+				color: #666666;
 			}
 
 /*.part_0_on{background: none;padding-bottom:0px;background: #ffffff url(./../img/line.png) no-repeat center bottom;min-width: 1240px;}*/
